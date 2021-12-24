@@ -1,0 +1,19 @@
+This dataset contain the Human Activity Recognition (HAR) database built from the recordings of 30 subjects performing activities of daily living while carrying a waist-mounted smartphone with embedded inertial sensors.
+
+Preparation of the dataset for the analysis is performed with two R scripts.
+
+The first (samdata_analysis_code.R) performs the following tasks:
+
+	1. checks for the presence of the source dataset in the working directory;
+	2. downloads and unzips the source file from the UCI Machine Learning Repository website in the working directory if the source dataset doesn't exist;
+	3. run the second script.
+The second script (run_analysis.R) performs the following tasks:
+
+	1. Merges the training and the test sets to create one data set.
+	2. Extracts only the measurements on the mean and standard deviation for each measurement.
+	3. Uses descriptive activity names to name the activities in the data set
+	4. Appropriately labels the data set with descriptive activity names.
+	5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+
+https://github.com/giancolu/Samsung-dataset
