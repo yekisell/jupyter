@@ -1,3 +1,7 @@
 /.ipynb_checkpoints
-cources_notes/.ipynb_checkpoints
-projects/rossman_store_sales/
+cources_notes/.ipynb_checkpoints/
+
+# XGB model (130 mb)
+projects/rossman_store_sales/pickle_files
+# Train data with lags (199 mb)
+projects/rossman_store_sales/modified_data
